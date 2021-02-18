@@ -11,12 +11,9 @@ export class Todo extends React.Component {
     render() {
         return (  
             <div>
-                <h2>{this.props.text}</h2> 
-                //Do not forget to add the other properties of your TODO!
-                <p>{this.props.priority}</p>
-                <time>{this.props.dueDate}</time>
-                
-
+                <p>Text: {this.props.text}</p> 
+                <p>Priority: {this.props.priority}</p>
+                <p>Time: {this.props.dueDate}</p>
             </div>
         );
     }
