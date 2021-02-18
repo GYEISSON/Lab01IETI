@@ -1,5 +1,5 @@
-import React from 'react';
 
+import React from 'react';
 
 
 export class Todo extends React.Component {
@@ -10,9 +10,16 @@ export class Todo extends React.Component {
 
     render() {
         return (  
-            <h2>{this.props.text}</h2> 
-            //Do not forget to add the other properties of your TODO!
+            <div>
+                <h2>{this.props.text}</h2> 
+                //Do not forget to add the other properties of your TODO!
+                <p>{this.props.priority}</p>
+                <time>{this.props.dueDate}</time>
+                
+
+            </div>
         );
     }
 
 }
+
