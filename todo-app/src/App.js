@@ -1,5 +1,8 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {TodoList} from './TodoList';
+import {TodoApp} from './TodoApp';
 
 function App() {
   return (
@@ -9,6 +12,7 @@ function App() {
         <p>
           &lt;h1&gt;TODO React App&lt;/h1&gt;
         </p>
+        <TodoApp/>
         <a
           className="App-link"
           href="https://reactjs.org"
