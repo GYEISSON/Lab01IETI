@@ -16,7 +16,7 @@ function App() {
         <p>
           &lt;h1&gt;TODO React App&lt;/h1&gt;
         </p>
-        <TodoList todoList={todos}/>
+        <TodoApp/>
         <a
           className="App-link"
           href="https://reactjs.org"
